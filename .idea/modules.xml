@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/IdeaWorkspace.iml" filepath="$PROJECT_DIR$/.idea/IdeaWorkspace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-configcenter/microservice-configcenter.iml" filepath="$PROJECT_DIR$/microservice-configcenter/microservice-configcenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-dwzy-pgewm/microservice-dwzy-pgewm.iml" filepath="$PROJECT_DIR$/microservice-dwzy-pgewm/microservice-dwzy-pgewm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-frameworkutil/microservice-frameworkutil.iml" filepath="$PROJECT_DIR$/microservice-frameworkutil/microservice-frameworkutil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-gateway/microservice-gateway.iml" filepath="$PROJECT_DIR$/microservice-gateway/microservice-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-homepage/microservice-homepage.iml" filepath="$PROJECT_DIR$/microservice-homepage/microservice-homepage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-login/microservice-login.iml" filepath="$PROJECT_DIR$/microservice-login/microservice-login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-order-nacos/microservice-order-nacos.iml" filepath="$PROJECT_DIR$/microservice-order-nacos/microservice-order-nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-orders/microservice-orders.iml" filepath="$PROJECT_DIR$/microservice-orders/microservice-orders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-registry/microservice-registry.iml" filepath="$PROJECT_DIR$/microservice-registry/microservice-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-storage/microservice-storage.iml" filepath="$PROJECT_DIR$/microservice-storage/microservice-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservicegateway2/microservicegateway2.iml" filepath="$PROJECT_DIR$/microservicegateway2/microservicegateway2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mricroservice-goods/mricroservice-goods.iml" filepath="$PROJECT_DIR$/mricroservice-goods/mricroservice-goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mricroservice-goods-nacos/mricroservice-goods-nacos.iml" filepath="$PROJECT_DIR$/mricroservice-goods-nacos/mricroservice-goods-nacos.iml" />
+    </modules>
+  </component>
+</project>

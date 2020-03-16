@@ -1,0 +1,15 @@
+server:
+  port: 8700
+spring:
+  application:
+    name: microservice-framworkutils
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8600/eureka
+
+
+
+
+
+

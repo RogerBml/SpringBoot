@@ -1,0 +1,24 @@
+spring:
+  cloud:
+    config:
+      uri: http://configserver.com:9999
+      label: master
+      name: application-microservice-login
+    stream:
+      binders:
+        defaultRabbit:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: localhost
+                port: 5671
+                username: guest
+                password: guest
+      bindings:
+        output:
+          destination: loginExchange
+          content-type: application/json
+          binder: defaltRabbit
+
+

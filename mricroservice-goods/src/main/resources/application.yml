@@ -1,0 +1,66 @@
+server:
+  port: 8092
+spring:
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql:///test?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone = GMT
+    username: root
+    password: roger
+  application:
+    name: microservice-goods
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sample:
+      probality: 0.5
+  redis:
+    database: 0
+    host: localhost
+    port: 6666
+    timeout: 10000ms
+  cache:
+    type: redis
+    cache-names: goodsCache
+  cloud:
+    stream:
+      binders:
+        defaultRabbit:
+          type: rabbit
+          spring:
+            rabbitmq:
+              host: localhost
+              port: 5672
+              username: guest
+              password: guest
+      bindings:
+        output:
+          destination: goodsExchange
+          content-type: application/json
+          binder: defaultRabbit
+    #nacos:
+      #discovery:
+        #server-addr: localhost:8848
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8600/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+feign:
+  hystrix:
+    enabled: true
+hystrix:
+  command:
+    default:
+      excution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000

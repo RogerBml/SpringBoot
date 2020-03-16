@@ -1,0 +1,13 @@
+server:
+  port: 8097
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config.
+  application:
+    name: micorservice-goods-nacos
+  profiles:
+    active: dev
+

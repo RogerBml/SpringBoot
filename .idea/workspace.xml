@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96b13619-1b42-4e28-a687-f55ad2a06981" name="Default Changelist" comment="webflux-pgewm">
+      <change afterPath="$PROJECT_DIR$/microservice-configcenter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-configcenter/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-configcenter/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-configcenter/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-configcenter/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-configcenter/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-configcenter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-configcenter/src/main/java/com/sgcc/jxd/microserviceconfigcenter/MicroserviceConfigcenterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-configcenter/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-configcenter/src/test/java/com/sgcc/jxd/microserviceconfigcenter/MicroserviceConfigcenterApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-dwzy-pgewm/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-dwzy-pgewm/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-dwzy-pgewm/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-dwzy-pgewm/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-dwzy-pgewm/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-dwzy-pgewm/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-dwzy-pgewm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-dwzy-pgewm/src/main/java/com/sgcc/jxd/microservicedwzypgewm/MicroserviceDwzyPgewmApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-dwzy-pgewm/src/main/java/com/sgcc/jxd/microservicedwzypgewm/Repository/PgewmRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-dwzy-pgewm/src/main/java/com/sgcc/jxd/microservicedwzypgewm/bean/Pgewm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-dwzy-pgewm/src/main/java/com/sgcc/jxd/microservicedwzypgewm/config/CorsConfigWebflux.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-dwzy-pgewm/src/main/java/com/sgcc/jxd/microservicedwzypgewm/pgewmhandlers/Pgewmhandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-dwzy-pgewm/src/main/java/com/sgcc/jxd/microservicedwzypgewm/routers/AllRouters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-dwzy-pgewm/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-dwzy-pgewm/src/test/java/com/sgcc/jxd/microservicedwzypgewm/MicroserviceDwzyPgewmApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-frameworkutil/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-frameworkutil/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-frameworkutil/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-frameworkutil/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-frameworkutil/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-frameworkutil/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-frameworkutil/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-frameworkutil/src/main/java/com/sgcc/jxd/microserviceframeworkutil/MicroserviceFrameworkutilApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-frameworkutil/src/main/java/com/sgcc/jxd/microserviceframeworkutil/controller/BaseUtilsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-frameworkutil/src/main/java/com/sgcc/jxd/microserviceframeworkutil/service/TimeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-frameworkutil/src/main/java/com/sgcc/jxd/microserviceframeworkutil/utils/qrutils/BufferedImageLuminanceSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-frameworkutil/src/main/java/com/sgcc/jxd/microserviceframeworkutil/utils/qrutils/QRCodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-frameworkutil/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-frameworkutil/src/test/java/com/sgcc/jxd/microserviceframeworkutil/MicroserviceFrameworkutilApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-gateway/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-gateway/src/main/java/com/sgcc/jxd/microservicegateway/MicroserviceGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-gateway/src/test/java/com/sgcc/jxd/microservicegateway/MicroserviceGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/MicroserviceHomepageApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/ToolsUtil/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/ToolsUtil/TreeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/bean/HomePageMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/bean/HomePageMenuUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/bean/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/config/RedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/controller/MicroserviceRestController/LoginServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/controller/PageHomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/repository/HomePageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/service/HomePageSErviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/service/HomePageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/service/UserinfoFallBackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/service/UserinfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-homepage/src/test/java/com/sgcc/pms/microservicehomepage/MicroserviceHomepageApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/src/main/java/com/sgcc/jxd/microservicelogin/MicroserviceLoginApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/src/main/java/com/sgcc/jxd/microservicelogin/bean/RolerRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/src/main/java/com/sgcc/jxd/microservicelogin/bean/Rolers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/src/main/java/com/sgcc/jxd/microservicelogin/bean/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/src/main/java/com/sgcc/jxd/microservicelogin/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/src/main/java/com/sgcc/jxd/microservicelogin/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/src/main/java/com/sgcc/jxd/microservicelogin/controller/RolerRightController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/src/main/java/com/sgcc/jxd/microservicelogin/controller/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/src/main/java/com/sgcc/jxd/microservicelogin/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/src/main/java/com/sgcc/jxd/microservicelogin/repository/RolerRightRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/src/main/java/com/sgcc/jxd/microservicelogin/repository/UserinfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/src/main/java/com/sgcc/jxd/microservicelogin/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/src/main/java/com/sgcc/jxd/microservicelogin/service/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/src/main/java/com/sgcc/jxd/microservicelogin/service/RolerRightService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/src/main/java/com/sgcc/jxd/microservicelogin/service/RolerRightServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/src/main/java/com/sgcc/jxd/microservicelogin/service/UserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/src/main/java/com/sgcc/jxd/microservicelogin/service/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-login/src/test/java/com/sgcc/jxd/microservicelogin/MicroserviceLoginApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-order-nacos/src/main/java/com/sgcc/jxd/microserviceordernacos/controller/OrderNacosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-order-nacos/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/bean/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/bean/Policy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/config/mqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/service/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/service/goodsService/GoodsCallService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/service/goodsService/GoodsCallServiceFallBackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/service/mqstream/StorageOutMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/service/mqstream/StorageOutMessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-registry/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-registry/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-registry/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-registry/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-registry/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-registry/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-registry/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-registry/src/main/java/com/sgcc/pms/microserviceregistry/MicroserviceRegistryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-registry/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-registry/src/test/java/com/sgcc/pms/microserviceregistry/MicroserviceRegistryApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-storage/src/main/java/com/sgcc/jxd/microservicestorage/Reposity/StockHistoryReposity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-storage/src/main/java/com/sgcc/jxd/microservicestorage/Reposity/StockReposity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-storage/src/main/java/com/sgcc/jxd/microservicestorage/bean/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-storage/src/main/java/com/sgcc/jxd/microservicestorage/bean/StorageHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-storage/src/main/java/com/sgcc/jxd/microservicestorage/config/MqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-storage/src/main/java/com/sgcc/jxd/microservicestorage/controller/StockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-storage/src/main/java/com/sgcc/jxd/microservicestorage/queue/StockQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-storage/src/main/java/com/sgcc/jxd/microservicestorage/service/MqStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-storage/src/main/java/com/sgcc/jxd/microservicestorage/service/StockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-storage/src/main/java/com/sgcc/jxd/microservicestorage/service/StockServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods-nacos/src/main/java/com/sgcc/jxd/microservicegoodsnacos/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods-nacos/src/main/resources/dev/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/MricroserviceGoodsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/bean/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/bean/GoodsDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/bean/Policy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/controller/PolicyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/repository/GoodsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/repository/PolicyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/service/GoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/service/PolicyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/service/PolicyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/service/servicecalls/baseutils/BaseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/service/servicecalls/baseutils/BaseUtilsFallBackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/utils/FstUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mricroservice-goods/src/test/java/com/sgcc/pms/mricroservicegoods/MricroserviceGoodsApplicationTests.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/microservice-login/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-registry/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/mricroservice-goods/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-configcenter/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-homepage/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-dwzy-pgewm/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-frameworkutil/target/" />
+    <ignored path="$PROJECT_DIR$/01-provider-8081/target/" />
+    <ignored path="$PROJECT_DIR$/01-consumer-8080/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-time/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-storage/target/" />
+    <ignored path="$PROJECT_DIR$/00-configserver-9999/target/" />
+    <ignored path="$PROJECT_DIR$/00-eurekaserve-config/target/" />
+    <ignored path="$PROJECT_DIR$/02-provider-config/target/" />
+    <ignored path="$PROJECT_DIR$/06-consumer-config/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-order/target/" />
+    <ignored path="$PROJECT_DIR$/microservicegateway2/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-order-nacos/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-goods-nacos/target/" />
+    <ignored path="$PROJECT_DIR$/mricroservice-goods-nacos/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-orders/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/IdeaWorkspace$MicroserviceGoodsNacosApplication.ic" NAME="MicroserviceGoodsNacosApplication Coverage Results" MODIFIED="1584194873014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="271" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:mysql://localhost:3306/test?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;serverTimezone = GMT" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/service/OrderServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-334">
+              <caret line="45" column="74" selection-start-line="45" selection-start-column="63" selection-end-line="45" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/service/mqstream/StorageOutMessageService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/service/mqstream/StorageOutMessageServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-orders/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="36" column="31" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-storage/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/service/PolicyServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/service/goodsService/GoodsCallService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="57" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-storage/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="34" column="38" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/MicroserviceOrdersApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/service/goodsService/GoodsCallServiceFallBackFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SimpleDateFormat</find>
+      <find>saveReposity</find>
+      <find>put</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/microservice-storage/src/main/java/com/sgcc/jxd/microservicestorage/service/StockServiceImpl.java" />
+        <option value="$PROJECT_DIR$/microservice-order/src/main/java/com/sgcc/jxd/microserviceorder/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/service/PolicyService.java" />
+        <option value="$PROJECT_DIR$/microservice-order/src/main/java/com/sgcc/jxd/microserviceorder/MicroserviceOrderApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-login/src/main/java/com/sgcc/jxd/microservicelogin/controller/UserInfoController.java" />
+        <option value="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/bean/Policy.java" />
+        <option value="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/repository/PolicyRepository.java" />
+        <option value="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/service/GoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/controller/PolicyController.java" />
+        <option value="$PROJECT_DIR$/microservice-order/src/main/java/com/sgcc/jxd/microserviceorder/service/goodsService/GoodsCallService.java" />
+        <option value="$PROJECT_DIR$/microservice-order/src/main/java/com/sgcc/jxd/microserviceorder/service/goodsService/GoodsCallServiceFallBackFactory.java" />
+        <option value="$PROJECT_DIR$/microservice-order/src/main/java/com/sgcc/jxd/microserviceorder/bean/Policy.java" />
+        <option value="$PROJECT_DIR$/microservice-order/src/main/java/com/sgcc/jxd/microserviceorder/bean/Order.java" />
+        <option value="$PROJECT_DIR$/microservice-order/src/main/java/com/sgcc/jxd/microserviceorder/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/microservice-order/src/main/java/com/sgcc/jxd/microserviceorder/repository/OrderRepository.java" />
+        <option value="$PROJECT_DIR$/microservice-order/src/main/java/com/sgcc/jxd/microserviceorder/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/service/PolicyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/microservice-order/pom.xml" />
+        <option value="$PROJECT_DIR$/mricroservice-goods/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-storage/pom.xml" />
+        <option value="$PROJECT_DIR$/mricroservice-goods/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-storage/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-order/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-order/src/main/java/com/sgcc/jxd/microserviceorder/service/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/bean/Order.java" />
+        <option value="$PROJECT_DIR$/microservice-orders/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/service/mqstream/StorageOutMessageService.java" />
+        <option value="$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/repository/OrderRepository.java" />
+        <option value="$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/MicroserviceOrdersApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/service/goodsService/GoodsCallService.java" />
+        <option value="$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/service/goodsService/GoodsCallServiceFallBackFactory.java" />
+        <option value="$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/service/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/microservice-dwzy-pgewm/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-frameworkutil/src/main/java/com/sgcc/jxd/microserviceframeworkutil/controller/BaseUtilsController.java" />
+        <option value="$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/repository/HomePageRepository.java" />
+        <option value="$PROJECT_DIR$/microservice-dwzy-pgewm/src/main/java/com/sgcc/jxd/microservicedwzypgewm/Repository/PgewmRepository.java" />
+        <option value="$PROJECT_DIR$/mricroservice-goods-nacos/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/mricroservice-goods-nacos/src/main/java/com/sgcc/jxd/microservicegoodsnacos/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/mricroservice-goods-nacos/src/main/java/com/sgcc/jxd/microservicegoodsnacos/MicroserviceGoodsNacosApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-orders/pom.xml" />
+        <option value="$PROJECT_DIR$/mricroservice-goods-nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/mricroservice-goods-nacos/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mricroservice-goods-nacos/src/main/resources/dev/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/microservice-order-nacos/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-order-nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-order-nacos/src/main/java/com/sgcc/jxd/microserviceordernacos/MicroserviceOrderNacosApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-order-nacos/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/microservice-order-nacos/src/main/java/com/sgcc/jxd/microserviceordernacos/controller/OrderNacosController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\maven\repo\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IdeaWorkspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaWorkspace" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584343476126" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-order" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3912543" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaWorkspace\microservice-order-nacos\src\main\resources" />
+      <recent name="E:\IdeaWorkspace\mricroservice-goods-nacos\src\main\resources" />
+      <recent name="E:\IdeaWorkspace\microservice-orders\src\main\java\com\sgcc\jxd\microserviceorders" />
+      <recent name="E:\IdeaWorkspace\microservice-configcenter\src\main\resources" />
+      <recent name="E:\IdeaWorkspace\microservice-gateway\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sgcc.jxd.microserviceorders.repository" />
+      <recent name="com.sgcc.jxd.microserviceorders.controller" />
+      <recent name="com.sgcc.jxd.microserviceorder.bean" />
+      <recent name="com.sgcc.pms.mricroservicegoods.config" />
+      <recent name="com.sgcc.jxd.microservicedwzypgewm.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaWorkspace\mricroservice-goods-nacos\src\main\resources\dev" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.23268399" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.MicroserviceOrderNacosApplication">
+    <configuration name="MicroserviceConfigcenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-configcenter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sgcc.jxd.microserviceconfigcenter.MicroserviceConfigcenterApplication" />
+      <option name="VM_PARAMETERS" value="-Xms64m -Xmx128m -Dfile.encoding=UTF-8" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceDwzyPgewmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-dwzy-pgewm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sgcc.jxd.microservicedwzypgewm.MicroserviceDwzyPgewmApplication" />
+      <option name="VM_PARAMETERS" value="-Xms64m -Xmx128m -Dfile.encoding=UTF-8" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceFrameworkutilApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-frameworkutil" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sgcc.jxd.microserviceframeworkutil.MicroserviceFrameworkutilApplication" />
+      <option name="VM_PARAMETERS" value="-Xms64m -Xmx128m -Dfile.encoding=UTF-8" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sgcc.jxd.microservicegateway.MicroserviceGatewayApplication" />
+      <option name="VM_PARAMETERS" value="-Xms64m -Xmx128m -Dfile.encoding=UTF-8" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceGoodsNacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mricroservice-goods-nacos" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sgcc.jxd.microservicegoodsnacos.MicroserviceGoodsNacosApplication" />
+      <option name="VM_PARAMETERS" value="-Xms64m -Xmx128m -Dfile.encoding=UTF-8" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceHomepageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-homepage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sgcc.pms.microservicehomepage.MicroserviceHomepageApplication" />
+      <option name="VM_PARAMETERS" value="-Xms64m -Xmx128m -Dfile.encoding=UTF-8" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceLoginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-login" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sgcc.jxd.microservicelogin.MicroserviceLoginApplication" />
+      <option name="VM_PARAMETERS" value="-Xms64m -Xmx128m -Dfile.encoding=UTF-8" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceOrderNacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-order-nacos" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sgcc.jxd.microserviceordernacos.MicroserviceOrderNacosApplication" />
+      <option name="VM_PARAMETERS" value="-Xms64m -Xmx128m -Dfile.encoding=UTF-8" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceOrdersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-orders" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sgcc.jxd.microserviceorders.MicroserviceOrdersApplication" />
+      <option name="VM_PARAMETERS" value="-Xms64m -Xmx128m -Dfile.encoding=UTF-8" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceRegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-registry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sgcc.pms.microserviceregistry.MicroserviceRegistryApplication" />
+      <option name="VM_PARAMETERS" value="-Xms64m -Xmx128m -Dfile.encoding=UTF-8" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceStorageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-storage" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sgcc.jxd.microservicestorage.MicroserviceStorageApplication" />
+      <option name="VM_PARAMETERS" value="-Xms64m -Xmx128m -Dfile.encoding=UTF-8" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Microservicegateway2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservicegateway2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sgcc.jxd.microservicegateway2.Microservicegateway2Application" />
+      <option name="VM_PARAMETERS" value="-Xms64m -Xmx128m -Dfile.encoding=UTF-8" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MricroserviceGoodsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mricroservice-goods" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sgcc.pms.mricroservicegoods.MricroserviceGoodsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.MicroserviceConfigcenterApplication" />
+      <item itemvalue="Spring Boot.MicroserviceDwzyPgewmApplication" />
+      <item itemvalue="Spring Boot.MicroserviceFrameworkutilApplication" />
+      <item itemvalue="Spring Boot.MicroserviceGatewayApplication" />
+      <item itemvalue="Spring Boot.MicroserviceHomepageApplication" />
+      <item itemvalue="Spring Boot.MicroserviceLoginApplication" />
+      <item itemvalue="Spring Boot.MicroserviceRegistryApplication" />
+      <item itemvalue="Spring Boot.MicroserviceStorageApplication" />
+      <item itemvalue="Spring Boot.MricroserviceGoodsApplication" />
+      <item itemvalue="Spring Boot.Microservicegateway2Application" />
+      <item itemvalue="Spring Boot.MicroserviceGoodsNacosApplication" />
+      <item itemvalue="Spring Boot.MicroserviceOrdersApplication" />
+      <item itemvalue="Spring Boot.MicroserviceOrderNacosApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\roger\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96b13619-1b42-4e28-a687-f55ad2a06981" name="Default Changelist" comment="" />
+      <created>1582680564104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582680564104</updated>
+      <workItem from="1582680566328" duration="29770000" />
+      <workItem from="1582729884056" duration="87000" />
+      <workItem from="1582730198132" duration="25540000" />
+      <workItem from="1582873031900" duration="1172000" />
+      <workItem from="1582875280854" duration="10065000" />
+      <workItem from="1582946764728" duration="11565000" />
+      <workItem from="1582983636512" duration="9264000" />
+      <workItem from="1583118545100" duration="76000" />
+      <workItem from="1583118683127" duration="11944000" />
+      <workItem from="1583152002829" duration="11734000" />
+      <workItem from="1583289797332" duration="4670000" />
+      <workItem from="1583328190500" duration="1986000" />
+      <workItem from="1583333640829" duration="7868000" />
+      <workItem from="1583373205546" duration="13585000" />
+      <workItem from="1583458976087" duration="15507000" />
+      <workItem from="1583500648082" duration="9502000" />
+      <workItem from="1583548783130" duration="47648000" />
+      <workItem from="1583717001864" duration="18614000" />
+      <workItem from="1583804818522" duration="4164000" />
+      <workItem from="1583828332827" duration="5257000" />
+      <workItem from="1583895165124" duration="7229000" />
+      <workItem from="1583931406236" duration="10015000" />
+      <workItem from="1583973439983" duration="10144000" />
+      <workItem from="1583990392089" duration="13528000" />
+      <workItem from="1584008909394" duration="19685000" />
+      <workItem from="1584060143706" duration="15055000" />
+      <workItem from="1584173389267" duration="8573000" />
+      <workItem from="1584197624967" duration="5481000" />
+      <workItem from="1584252587824" duration="5272000" />
+      <workItem from="1584279810151" duration="4082000" />
+      <workItem from="1584317951130" duration="8951000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="348033000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49909255" visible="true" weight="0.23240939" />
+      <window_info id="Structure" order="1" sideWeight="0.5009074" side_tool="true" weight="0.16204691" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43837085" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32939914" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.3290461" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989339" weight="0.39484978" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50159913" side_tool="true" weight="0.53218883" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.25751072" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49946696" weight="0.32939914" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.49946696" weight="0.32939914" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49840087" visible="true" weight="0.2950644" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.5042644" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.47334754" />
+      <window_info anchor="right" id="Redis Servers" order="9" weight="0.31130064" />
+      <window_info anchor="right" id="Database" order="10" weight="0.18923241" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="webflux-pgewm" />
+    <option name="LAST_COMMIT_MESSAGE" value="webflux-pgewm" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservice-order/src/main/java/com/sgcc/jxd/microserviceorder/service/OrderServiceImpl.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservice-order/src/main/java/com/sgcc/jxd/microserviceorder/MicroserviceOrderApplication.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="begin_time.getTime()" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/microservice-login/src/main/java/com/sgcc/jxd/microservicelogin/bean/Rolers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-login/src/main/java/com/sgcc/jxd/microservicelogin/bean/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-login/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-login/src/main/java/com/sgcc/jxd/microservicelogin/bean/RolerRight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-login/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-homepage/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/service/UserinfoFallBackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-609">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-gateway/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-gateway/src/main/java/com/sgcc/jxd/microservicegateway/MicroserviceGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-configcenter/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-frameworkutil/src/main/java/com/sgcc/jxd/microserviceframeworkutil/service/TimeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-dwzy-pgewm/src/main/java/com/sgcc/jxd/microservicedwzypgewm/pgewmhandlers/Pgewmhandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1188">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-dwzy-pgewm/src/main/java/com/sgcc/jxd/microservicedwzypgewm/config/CorsConfigWebflux.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-frameworkutil/src/main/java/com/sgcc/jxd/microserviceframeworkutil/controller/BaseUtilsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="42" column="52" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-dwzy-pgewm/src/main/java/com/sgcc/jxd/microservicedwzypgewm/routers/AllRouters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/controller/MicroserviceRestController/LoginServiceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/controller/PageHomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/service/HomePageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/service/HomePageSErviceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/repository/HomePageRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-dwzy-pgewm/src/main/java/com/sgcc/jxd/microservicedwzypgewm/Repository/PgewmRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="7" column="80" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mricroservice-goods/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="44" selection-start-line="44" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repo/org/springframework/spring-beans/5.2.4.RELEASE/spring-beans-5.2.4.RELEASE.jar!/org/springframework/beans/factory/annotation/Value.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-homepage/src/main/java/com/sgcc/pms/microservicehomepage/bean/HomePageMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-dwzy-pgewm/src/main/java/com/sgcc/jxd/microservicedwzypgewm/bean/Pgewm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-orders/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="59" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mricroservice-goods-nacos/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3024">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mricroservice-goods-nacos/src/main/java/com/sgcc/jxd/microservicegoodsnacos/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mricroservice-goods-nacos/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-nacos/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-configcenter/src/main/java/com/sgcc/jxd/microserviceconfigcenter/MicroserviceConfigcenterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-nacos/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-dwzy-pgewm/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mricroservice-goods/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" column="80" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mricroservice-goods-nacos/src/main/java/com/sgcc/jxd/microservicegoodsnacos/MicroserviceGoodsNacosApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mricroservice-goods-nacos/src/main/resources/dev/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-nacos/src/main/java/com/sgcc/jxd/microserviceordernacos/controller/OrderNacosController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-nacos/src/main/java/com/sgcc/jxd/microserviceordernacos/MicroserviceOrderNacosApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order-nacos/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="48" column="52" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/service/mqstream/StorageOutMessageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/service/mqstream/StorageOutMessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/service/goodsService/GoodsCallServiceFallBackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/service/goodsService/GoodsCallService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-orders/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-storage/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mricroservice-goods/src/main/java/com/sgcc/pms/mricroservicegoods/service/PolicyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-storage/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/MicroserviceOrdersApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-orders/src/main/java/com/sgcc/jxd/microserviceorders/service/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-334">
+          <caret line="45" column="74" selection-start-line="45" selection-start-column="63" selection-end-line="45" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3912543" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (mricroservice-goods-nacos)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3912543" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3912543" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3912543" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>microservice-goods-nocos</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3912543" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3912543" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-configcenter" />
+        <module name="microservice-dwzy-pgewm" />
+        <module name="microservice-frameworkutil" />
+        <module name="microservice-gateway" />
+        <module name="microservice-homepage" />
+        <module name="microservice-login" />
+        <module name="microservice-order" />
+        <module name="microservice-order-nacos" />
+        <module name="microservice-orders" />
+        <module name="microservice-registry" />
+        <module name="microservice-storage" />
+        <module name="microservicegateway2" />
+        <module name="mricroservice-goods" />
+        <module name="mricroservice-goods-nacos" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="00-configserver-9999" target="1.8" />
+      <module name="00-eurekaserve-config" target="1.8" />
+      <module name="01-consumer-8080" target="1.8" />
+      <module name="01-provider-8081" target="1.8" />
+      <module name="02-provider-config" target="1.8" />
+      <module name="06-consumer-config" target="1.8" />
+      <module name="microservice-configcenter" target="11" />
+      <module name="microservice-dwzy-pgewm" target="11" />
+      <module name="microservice-frameworkutil" target="11" />
+      <module name="microservice-gateway" target="11" />
+      <module name="microservice-goods-nocos" target="11" />
+      <module name="microservice-homepage" target="11" />
+      <module name="microservice-login" target="11" />
+      <module name="microservice-order" target="11" />
+      <module name="microservice-order-nacos" target="11" />
+      <module name="microservice-orders" target="11" />
+      <module name="microservice-registry" target="11" />
+      <module name="microservice-storage" target="11" />
+      <module name="microservice-time" target="11" />
+      <module name="microservicegateway2" target="11" />
+      <module name="mricroservice-goods" target="11" />
+      <module name="mricroservice-goods-nacos" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="00-configserver-9999" options="-parameters" />
+      <module name="00-eurekaserve-config" options="-parameters" />
+      <module name="01-consumer-8080" options="-parameters" />
+      <module name="01-provider-8081" options="-parameters" />
+      <module name="02-provider-config" options="-parameters" />
+      <module name="06-consumer-config" options="-parameters" />
+      <module name="microservice-configcenter" options="-parameters" />
+      <module name="microservice-dwzy-pgewm" options="-parameters" />
+      <module name="microservice-frameworkutil" options="-parameters" />
+      <module name="microservice-gateway" options="-parameters" />
+      <module name="microservice-goods-nocos" options="-parameters" />
+      <module name="microservice-homepage" options="-parameters" />
+      <module name="microservice-login" options="-parameters" />
+      <module name="microservice-order" options="-parameters" />
+      <module name="microservice-order-nacos" options="-parameters" />
+      <module name="microservice-orders" options="-parameters" />
+      <module name="microservice-registry" options="-parameters" />
+      <module name="microservice-storage" options="-parameters" />
+      <module name="microservice-time" options="-parameters" />
+      <module name="microservicegateway2" options="-parameters" />
+      <module name="mricroservice-goods" options="-parameters" />
+      <module name="mricroservice-goods-nacos" options="-parameters" />
+    </option>
+  </component>
+</project>

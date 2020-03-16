@@ -1,0 +1,77 @@
+server:
+  port: 8094
+spring:
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql:///test?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone = GMT
+    username: root
+    password: roger
+  application:
+    name: microservice-storage
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sample:
+      probality: 0.5
+  cloud:
+    stream:
+      binders:
+        defaultRabbit:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: localhost
+                port: 5672
+                username: guest
+                password: guest
+      bindings:
+        input:
+          destination: storageExchange
+          content-type: application/json
+          binder: defaultRabbit
+          group: storage_service
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+logging:
+  pattern:
+    console: level-%level %msg%n
+  level:
+    root: info
+    org.hibernate: info
+    org.hibernate.type.decrptor.sql.BasicBinder: trace
+    org.hibernate.hql.internal.ast.exec.BasicExecutor: trace
+    com.sgcc.pms.provider: debug
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8600/eureka
+info:
+  company.name: com.sgcc.pms.jxd
+  company.tel: 17627032752
+  comany.address: china
+  author.name: white
+  app.des: microservice-storage
+feign:
+  hystrix:
+    enabled: true
+hystrix:
+  command:
+    default:
+      excution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+
+
+
+
+

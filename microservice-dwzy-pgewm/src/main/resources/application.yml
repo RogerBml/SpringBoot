@@ -1,0 +1,18 @@
+server:
+  port: 8096
+spring:
+  data:
+    mongodb:
+      uri: mongodb://tester:123456@localhost:27017/test
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  application:
+    name: microservice-pgewm
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8600/eureka
+

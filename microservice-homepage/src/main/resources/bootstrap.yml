@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    config:
+      uri: http://configserver.com:9999
+      label: master
+      name: application-microservice-homepage
+
+  redis:
+    host: localhost
+    port: 6666
+    timeout: 5000
+  cache:
+    type: redis
+    cache-names: homepageCache
+

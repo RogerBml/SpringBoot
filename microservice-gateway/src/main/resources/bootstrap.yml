@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      uri: http://configserver.com:9999
+      label: master
+      name: application-microservice-gateway

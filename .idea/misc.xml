@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/microservice-login/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/mricroservice-goods/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-configcenter/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-homepage/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-dwzy-pgewm/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-frameworkutil/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-storage/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicegateway2/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-order-nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-goods-nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-orders/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

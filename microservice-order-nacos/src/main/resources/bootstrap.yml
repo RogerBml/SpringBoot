@@ -1,0 +1,25 @@
+server:
+  port: 8098
+spring:
+  application:
+    name: micorservice-order-nacos
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        group: ORDER_GROUP
+        namespace: cad539da-1dc7-4208-970a-a47a500f841b
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8719
+service-url:
+  nacos-user-service: http://microservice-goods-nacos
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
